@@ -1,4 +1,3 @@
-
 /**
  * Strings are a special type of Object in Java that represent text, and they are stored a bit differently -
  * even though they are Objects, we don't need to use a constructor to instantiate them.
@@ -14,7 +13,7 @@ public class SimpleStringMethods {
      * @return the length of string s.
      */
     public int getStringLength(String s){
-        return 0;
+        return s.length();
     }
 
     /**
@@ -24,7 +23,7 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char getCharacterAtIndex(String s, int n){
-        return ' ';
+        return s.charAt(n);
     }
 
     /**
@@ -36,7 +35,7 @@ public class SimpleStringMethods {
      * @return the index of the first occurence of c within s.
      */
     public int getIndexGivenCharacter(String s, char c){
-        return 0;
+        return s.indexOf(c);
     }
 
 }
